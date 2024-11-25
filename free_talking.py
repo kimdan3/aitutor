@@ -1,7 +1,7 @@
 import base64
 import streamlit as st
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 from openai import OpenAI
 from audio_recorder_streamlit import audio_recorder
 
