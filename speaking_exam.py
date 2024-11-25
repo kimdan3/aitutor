@@ -13,7 +13,7 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
 
 # OpenAI API 키 설정
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # 페이지 설정
 st.set_page_config(layout="wide")
