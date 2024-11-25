@@ -66,7 +66,7 @@ def build_correction_chain(model):
 
 # Initialize model and chains if not already set
 if "model" not in st.session_state:
-    model = ChatOpenAI(model="gpt-4-1106-preview", openai_api_key="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")
+    model = ChatOpenAI(model="gpt-4-1106-preview", openai_api_key="")
     st.session_state.model = model
 
 if "grammar_analysis_chain" not in st.session_state:
