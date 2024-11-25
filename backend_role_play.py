@@ -9,7 +9,7 @@ from langchain_core.output_parsers import JsonOutputParser
 import langchain_core.pydantic_v1 as pyd1
 import pydantic as pyd2
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 from openai import OpenAI
 
 
