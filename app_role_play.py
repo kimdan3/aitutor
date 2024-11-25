@@ -1,7 +1,7 @@
 import io
 import base64
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 from openai import OpenAI, audio
 import requests
 from openai.types.audio import transcription
